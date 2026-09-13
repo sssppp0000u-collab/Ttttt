@@ -1,0 +1,22 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.dhiqar.tv2028"
+    compileSdk = flutter.compileSdkVersion
+
+    defaultConfig {
+        applicationId = "com.dhiqar.tv2028"
+        minSdk = 21
+        targetSdk = flutter.targetSdkVersion
+        versionCode = 2028
+        versionName = "1.0.0"
+    }
+}
+
+flutter {
+    source = "../.."
+}

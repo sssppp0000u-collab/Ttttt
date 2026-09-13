@@ -1,0 +1,12 @@
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#070E17</item>
+        <item name="android:navigationBarColor">#070E17</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#070E17</item>
+        <item name="android:navigationBarColor">#070E17</item>
+    </style>
+</resources>
